@@ -1,0 +1,133 @@
+body {
+    text-align: center;
+    font-variant: small-caps;
+    background-repeat: no-repeat;
+    margin-top: 800px;
+}
+
+#Welcome {
+    font-size: 18px;
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 800px;
+    width: 100%;
+    opacity: 0.8;
+    display: table;
+    z-index: 7;
+}
+
+#bio {
+    font-size: 18px;
+    background-color: cyan;
+    padding: 50px;
+}
+
+#title {
+    color: red;
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 2px 2px #F8BBDO;
+}
+
+#fam_players,
+#inspirations,
+#works {
+    background-color: cyan;
+}
+
+
+h2 {
+    color: red;
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 2px 2px #F8BBDO;
+}
+
+img {
+    padding-top: 50px;
+    width: 300px;
+    height: 400px;
+    border-radius: 30%;
+    padding-bottom: 0.001px;
+}
+
+p {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+#heading {
+    color: black;
+    font-size: 35px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.line {
+    width: 100px;
+    height: 6px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+#my_image {
+    margin-top: 50px;
+}
+
+#title {
+    margin-top: 50px;
+}
+
+#my_name {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h3 {
+    font-size: 35px;
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    list-style: none;
+    font-size: 25px;
+    font-family: fantasy;
+    z-index: 9;
+}
+
+.links {
+    float: left;
+    padding: 5px 10px;
+}
+
+.links:hover {
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    transition: transform 0.8s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
